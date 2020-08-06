@@ -10,3 +10,7 @@
 # .on('channel_name', msg => {
   msg is receiving within the save channel-name from the sender (emit function) 
 })
+
+Getting the query info from the http link like username query in localhost: 3000/chat.html?username=xxxx
+we use qs cdn.  
+1. grab the min js tag from qs cdn web site and put it at chat.html right at the bottom
