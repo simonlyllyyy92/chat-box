@@ -1,0 +1,12 @@
+# .on() method is used to received message
+@ .emit() method is used to send message
+
+@ sending message has different method including: 
+  1. io.emit('channel_name', channel_content)
+  2. socket.emit('channel_name', channel_content)
+  3. socket.broadcast.emit('channel_name', channel_content)
+  explanation of each of these has been made in server.js file
+
+# .on('channel_name', msg => {
+  msg is receiving within the save channel-name from the sender (emit function) 
+})
